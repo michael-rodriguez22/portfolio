@@ -4,11 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Portfolio</title>
+    <title>MR Web Dev</title>
   </head>
 
-  <body>
+  <body data-theme="">
+    <section class="hero">
+      <nav>
+        <i
+          class="fas fa-adjust"
+          onclick="toggleTheme()"
+          title="Toggle Theme"
+        ></i>
+        <ul id="nav-list" class="">
+          <i class="fas fa-times overlay-close"></i>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars hamburger" onclick="toggleOverlay()"></i>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Michael Rodriguez</h1>
+          <p>Full-Stack Web Developer</p>
+        </div>
+        <div class="hero-icons">
+          <a href="#">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin" title="LinkedIn"></i>
+          </a>
+          <a href="#">
+            <i class="far fa-file-pdf" title="Resume"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-continue">
+        <a href="#about">
+          <i class="fas fa-angle-down continue"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="about">about</section>
+
+    <section id="portfolio">portfolio</section>
+
+    <footer id="contact">contact</footer>
+
     <script src="./assets/app.js"></script>
   </body>
 </html>
