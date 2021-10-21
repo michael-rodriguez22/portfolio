@@ -48,7 +48,7 @@ section {
   color: var(--secondary);
   min-height: 100vh;
   position: relative;
-  padding-bottom: 128px;
+  padding: 0 0 128px;
 }
 
 .section-heading {
@@ -120,6 +120,7 @@ nav ul li a:hover {
   background-color: var(--secondary);
   overflow-y: auto;
   margin-top: -2px;
+  border-top: none;
 }
 
 .hero-content {
@@ -203,7 +204,28 @@ footer {
   position: relative;
   background-color: var(--secondary);
   color: var(--primary);
-  height: 100px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 100px;
+}
+
+.contact-item {
+  margin-bottom: 2rem;
+}
+
+.return {
+  color: #999;
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
 }
 
 /* LARGE SCREEN */
@@ -295,6 +317,10 @@ footer {
     align-self: flex-start;
     margin-top: 1rem;
   }
+
+  .contact-wrapper {
+    font-size: 2rem;
+  }
 }
 
 /* MOBILE */
@@ -348,5 +374,21 @@ footer {
 
   .about-content {
     padding: 0 20px;
+  }
+
+  footer {
+    height: 100vh;
+    padding-top: 150px;
+  }
+
+  .contact-wrapper {
+    font-size: 1.4rem;
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 69px;
   }
 }
