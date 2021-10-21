@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-dark.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,25 +18,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>MR Web Dev</title>
+    <title></title>
   </head>
 
   <body>
+    <nav>
+      <i class="fas fa-adjust" onclick="toggleTheme()" title="Toggle Theme"></i>
+      <ul id="nav-list" class="">
+        <i class="fas fa-times overlay-close"></i>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fas fa-bars hamburger" onclick="toggleOverlay()"></i>
+    </nav>
     <section class="hero">
-      <nav>
-        <i
-          class="fas fa-adjust"
-          onclick="toggleTheme()"
-          title="Toggle Theme"
-        ></i>
-        <ul id="nav-list" class="">
-          <i class="fas fa-times overlay-close"></i>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="fas fa-bars hamburger" onclick="toggleOverlay()"></i>
-      </nav>
       <div class="hero-content">
         <div class="hero-text">
           <h1>Michael Rodriguez</h1>
@@ -65,23 +62,31 @@
         <h2>About</h2>
       </div>
       <div class="about-content">
-        <p class="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          provident iusto nostrum delectus debitis unde odio, architecto vitae!
-          Odio quae accusantium consequuntur delectus, quia inventore rem autem
-          deleniti laboriosam ex beatae similique cum sapiente amet pariatur quo
-          ad. Enim, reiciendis. Temporibus quia voluptates animi suscipit
-          ratione sequi vero error accusamus velit ipsum ex eos perferendis
-          reprehenderit repellendus voluptatem quisquam sint dolores laudantium
-          aspernatur in, eum numquam at nulla est? Tempora tenetur accusantium,
-          est nobis itaque ab aspernatur eligendi, ea voluptatem aut quidem
-          reiciendis inventore ullam assumenda amet placeat consectetur unde
-          laudantium neque ex porro quod cupiditate, at non. Quidem,
-          voluptatibus.
-        </p>
-        <div class="headshot-wrapper">
+        <div class="about-headshot-wrapper">
           <img src="./assets/images/screenshot.jpg" alt="headshot" />
         </div>
+        <p class="about-p1 about-p">
+          Hello world! I'm Michael, an early-career web developer with a passion
+          for programming and picking up new skills. Lately I have been working
+          primarily with HTML, CSS, Node, Javascript, Express, and React.
+        </p>
+        <p class="about-p2 about-p">
+          Some of my favorite things outside of work are nature, animals,
+          paintings, tattoos, really difficult video games, and teaching myself
+          how to play new instruments.
+        </p>
+        <p class="about-p3 about-p">
+          I have an extensive background as a musician, music educator, and
+          composer / arranger. I also have lots of experience with collaborating
+          on
+          <a
+            href="https://www.youtube.com/watch?v=kPGrdtT6T0U"
+            target="blank"
+            title="Playlist containing videos of musical ensembles I was a part of."
+            >large-scale creative endeavors</a
+          >. As a programmer, my mission is to present creative visions to end
+          users in a professional, elegant, and memorable manner.
+        </p>
       </div>
       <div class="section-continue">
         <a href="#portfolio">
@@ -101,14 +106,7 @@
       </div>
     </section>
 
-    <footer id="contact">
-      <div class="section-continue">
-        <a href="#">
-          <i class="fas fa-angle-up continue"></i>
-        </a>
-      </div>
-    </footer>
-
+    <footer id="contact"></footer>
     <script src="./assets/app.js"></script>
   </body>
 </html>
