@@ -29,10 +29,28 @@ h1 {
   font-size: 3.5rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 section {
   background-color: var(--primary);
   color: var(--secondary);
-  height: 500px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.section-continue {
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.continue {
+  font-size: 4rem;
+  color: var(--accent);
 }
 
 /* HERO / NAV */
@@ -118,25 +136,47 @@ nav ul li a:hover {
   color: var(--accent);
 }
 
-.hero-continue {
-  width: 100%;
-  text-align: center;
-}
-
-.continue {
-  font-size: 4rem;
-  color: var(--accent);
-}
-
 /* ABOUT */
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text p {
+  font-size: 2rem;
+}
+
+.headshot-wrapper {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.headshot-wrapper img {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  left: -50px;
+}
 
 /* PORTFOLIO */
 
 /* CONTACT */
 footer {
+  position: relative;
   background-color: var(--secondary);
   color: var(--primary);
-  height: 300px;
+  height: 100px;
 }
 
 /* TAB */
@@ -156,6 +196,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--secondary);
+    z-index: 1000;
   }
 
   .overlay-close {
@@ -186,6 +227,10 @@ footer {
   .hero-icons {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .section-continue {
+    display: none;
   }
 }
 
