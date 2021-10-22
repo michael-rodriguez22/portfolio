@@ -1,6 +1,6 @@
 # Portfolio
 
-This fully responsive site was from scratch without the use of any libraries or frameworks. I used this simple project as an opportunity to practice my CSS skills. Features include:
+This fully responsive site was made without the use of any libraries or frameworks. I used this small project as an opportunity to practice my CSS skills. Features include:
 
 - ability to toggle theme
 - icons
