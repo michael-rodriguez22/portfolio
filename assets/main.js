@@ -37,7 +37,7 @@ for (let i = 0; i < navList.childElementCount; i++) {
 const projects = [
   {
     title: "Weather Dashboard",
-    imgUrl: "./assets/images/weather-dashboard-screenshot.png",
+    imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
       "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     title: "Weather Dashboard",
-    imgUrl: "./assets/images/weather-dashboard-screenshot.png",
+    imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
       "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
@@ -61,7 +61,7 @@ const projects = [
   },
   {
     title: "Weather Dashboard",
-    imgUrl: "./assets/images/weather-dashboard-screenshot.png",
+    imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
       "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
@@ -73,7 +73,7 @@ const projects = [
   },
   {
     title: "Weather Dashboard",
-    imgUrl: "./assets/images/weather-dashboard-screenshot.png",
+    imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
       "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
@@ -85,7 +85,7 @@ const projects = [
   },
   {
     title: "Weather Dashboard",
-    imgUrl: "./assets/images/weather-dashboard-screenshot.png",
+    imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
       "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
