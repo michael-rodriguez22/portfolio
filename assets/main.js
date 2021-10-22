@@ -1,7 +1,7 @@
 // DARK MODE / LIGHT MODE
 const root = document.documentElement;
 const favIcon = document.querySelector("link[rel='icon']");
-const lsKey = "ADVANCED-CSS-CHALLENGE-professional-portfolio-mikeyrod22";
+const lsKey = "michael-rodiguez22/portfolio";
 root.setAttribute("data-theme", localStorage.getItem(lsKey));
 
 localStorage.getItem(lsKey)
@@ -39,10 +39,10 @@ const projects = [
     title: "Weather Dashboard",
     imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
-      "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
+      "https://github.com/michael-rodriguez22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
     demoUrl:
-      "https://mikeyrod22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
+      "https://michael-rodriguez22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
     tags: ["HTTP Requests", "Local Storage", "Async / Await"],
     description:
       "This is a simple weather dashboard that I created from scratch. Users are able to search by city name and view current / upcoming weather conditions. It works by making an HTTP request to the Open Weather Map API. Once the relevant data is retrieved and parsed, the DOM is then dynamically updated. Searches are also saved to local storage, allowing users to quickly and easily search for their regular cities.",
@@ -51,10 +51,10 @@ const projects = [
     title: "Weather Dashboard",
     imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
-      "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
+      "https://github.com/michael-rodriguez22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
     demoUrl:
-      "https://mikeyrod22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
+      "https://michael-rodriguez22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
     tags: ["HTTP Requests", "Local Storage", "Async / Await"],
     description:
       "This is a simple weather dashboard that I created from scratch. Users are able to search by city name and view current / upcoming weather conditions. It works by making an HTTP request to the Open Weather Map API. Once the relevant data is retrieved and parsed, the DOM is then dynamically updated. Searches are also saved to local storage, allowing users to quickly and easily search for their regular cities.",
@@ -63,10 +63,10 @@ const projects = [
     title: "Weather Dashboard",
     imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
-      "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
+      "https://github.com/michael-rodriguez22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
     demoUrl:
-      "https://mikeyrod22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
+      "https://michael-rodriguez22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
     tags: ["HTTP Requests", "Local Storage", "Async / Await"],
     description:
       "This is a simple weather dashboard that I created from scratch. Users are able to search by city name and view current / upcoming weather conditions. It works by making an HTTP request to the Open Weather Map API. Once the relevant data is retrieved and parsed, the DOM is then dynamically updated. Searches are also saved to local storage, allowing users to quickly and easily search for their regular cities.",
@@ -75,10 +75,10 @@ const projects = [
     title: "Weather Dashboard",
     imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
-      "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
+      "https://github.com/michael-rodriguez22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
     demoUrl:
-      "https://mikeyrod22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
+      "https://michael-rodriguez22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
     tags: ["HTTP Requests", "Local Storage", "Async / Await"],
     description:
       "This is a simple weather dashboard that I created from scratch. Users are able to search by city name and view current / upcoming weather conditions. It works by making an HTTP request to the Open Weather Map API. Once the relevant data is retrieved and parsed, the DOM is then dynamically updated. Searches are also saved to local storage, allowing users to quickly and easily search for their regular cities.",
@@ -87,10 +87,10 @@ const projects = [
     title: "Weather Dashboard",
     imgUrl: "./assets/images/project-screenshots/weather-dashboard.png",
     githubUrl:
-      "https://github.com/mikeyrod22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
+      "https://github.com/michael-rodriguez22/SERVER-SIDE-API-CHALLENGE-weather-dashboard",
     demoType: "Deployed Site",
     demoUrl:
-      "https://mikeyrod22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
+      "https://michael-rodriguez22.github.io/SERVER-SIDE-API-CHALLENGE-weather-dashboard/",
     tags: ["HTTP Requests", "Local Storage", "Async / Await"],
     description:
       "This is a simple weather dashboard that I created from scratch. Users are able to search by city name and view current / upcoming weather conditions. It works by making an HTTP request to the Open Weather Map API. Once the relevant data is retrieved and parsed, the DOM is then dynamically updated. Searches are also saved to local storage, allowing users to quickly and easily search for their regular cities.",
