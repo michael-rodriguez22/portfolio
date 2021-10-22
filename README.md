@@ -14,4 +14,6 @@ This fully responsive site was made without the use of any libraries or framewor
 
 Deployed site is viewable <a href="https://michael-rodriguez22.github.io/portfolio/">here</a>. Enjoy!
 
+***
+
 <img src="./assets/images/screenshot.png">
